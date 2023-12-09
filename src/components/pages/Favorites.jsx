@@ -28,7 +28,9 @@ const Favorites = () => {
                   {comments[movie.imdbID] && (
                     <p className="text-gray-600 mt-2">{comments[movie.imdbID]}</p>
                   )}
-                  <ActionButton bgColor="blue" action="removeFavorite" onClick={() => removeFavorite(movie.imdbID)} />
+                  {/* <ActionButton bgColor="blue" action="removeFavorite" onClick={() => removeFavorite(movie.imdbID)} /> */}
+                  <button className="py-2 my-2 px-4 rounded text-white cursor-pointer bg-blue-500 hover:bg-blue-600" onClick={() => removeFavorite(movie.imdbID)}>Remove Comment</button>
+
                 </div>
               </div>
             ))
