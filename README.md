@@ -38,25 +38,23 @@ Navigate into the project directory and install the required dependencies:
 
 (CMD)
 cd movie-portal
-npm install
+### `npm install`
 
 2. Install Required Dependencies
 
 (CMD)
-npm install
+### `npm install`
 
 3. Run the Application:
 
 Start the development server:
 
 (CMD)
-npm start
+### `npm start`
 
 4. Build for Production:
 
 (CMD)
-npm run build
-
-
+### `npm run build`
 
 
